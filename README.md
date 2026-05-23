@@ -104,42 +104,7 @@ Approximate frequency estimation.
 
 ---
 
-## 6. 프로젝트 파일 구성 (Project Files)
-
-```text
-Streaming-Algorithms-Project/
-
-│── Streaming_Algorithms.ipynb
-│── Streaming_Report.pdf
-│── README.md
-│── requirements.txt
-```
-
----
-
-## 7. 실행 방법 (How to Run)
-
-### 1. 저장소 Clone
-
-```bash
-git clone https://github.com/본인아이디/RepositoryName.git
-```
-
-### 2. Colab 또는 Jupyter Notebook 실행
-
-`Streaming_Algorithms.ipynb` 파일 실행
-
-### 3. ratings.dat 업로드
-
-MovieLens 1M Dataset 다운로드 후 `ratings.dat` 업로드
-
-### 4. 코드 순서대로 실행
-
-모든 셀을 순서대로 실행하면 실험 결과가 생성됩니다.
-
----
-
-## 8. 최종 결론 (Conclusion)
+## 6. 최종 결론 (Conclusion)
 
 본 프로젝트에서는 스트리밍 환경에서 정확도와 메모리 사이의 Trade-off 관계를 분석하였다.
 
@@ -150,10 +115,3 @@ MovieLens 1M Dataset 다운로드 후 `ratings.dat` 업로드
 - 목적에 따라 적합한 알고리즘이 달라짐
 
 실제 서비스 로그 분석 환경에서는 **Bloom Filter + Count-Min Sketch 조합이 가장 실용적**이라고 판단하였다.
-
----
-
-## Author
-
-과목 과제 제출용 프로젝트  
-Course Assignment Project
